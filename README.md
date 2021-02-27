@@ -19,4 +19,3 @@ To import from csv into language files, you must enter the command
 2) Open console, run command
 > php brain.php import
 3) All generated files will be stored in the array_output folder
-4) 
