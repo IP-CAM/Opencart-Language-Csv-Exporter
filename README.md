@@ -1,23 +1,22 @@
 # Opencart Language CSV Import Export
-Переводит все языковые файлы CMS Opencart в файлы с расширением .csv и обратно
+Converts all CMS Opencart language files to .csv files and vice versa
 
-## Зачем это нужно?
-Для упрощения перевода системы. Работать с csv файлами гораздо комфортнее чем с массивами. Особенно для переводчиков.
+## Why do you need it?
+To simplify the translation of the system. Working with csv files is much more comfortable than with arrays. Especially for translators.
 
-### Как использовать?
-Скрип был написан и тестировался на версии php 7.1.2.
+### How to use?
+The script was written and tested on php 7.1.2.
 
-Для запуска экспорта из языковых файлов импорта необходимо: 
-1) Поместить в папку array_original языковой пакет
-2) Открыть консоль, запустить команду 
+To start export from language import files, you need to:
+1) Place the language pack in the array_original folder
+2) Open console, run command
 > php brain.php export
-3) Все сгенерированные файлы будут храниться в папке csv_output
+3) All generated files will be stored in the csv_output folder
 
 
-Для импорта из csv в языковые файлы необходимо ввести команду 
-1) Поместить в папку csv_original языковой пакет
-2) Открыть консоль, запустить команду 
+To import from csv into language files, you must enter the command
+1) Place the language pack in the csv_original folder
+2) Open console, run command
 > php brain.php import
-3) Все сгенерированные файлы будут храниться в папке array_output
-
-
+3) All generated files will be stored in the array_output folder
+4) 
